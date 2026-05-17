@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+.venv/
+
+# Dataset (too large for GitHub - 150MB)
+creditcard.csv
+*.csv
+
+# Model artifacts
+*.pkl
+*.joblib
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
