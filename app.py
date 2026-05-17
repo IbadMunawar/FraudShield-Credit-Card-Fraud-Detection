@@ -1,5 +1,6 @@
 import os
 import warnings
+import gdown
 warnings.filterwarnings("ignore")
 
 from dotenv import load_dotenv
@@ -171,7 +172,9 @@ TARGET_COL   = "Class"
 @st.cache_data(show_spinner="Loading dataset…")
 def load_data():
     if not os.path.exists(DATASET_PATH):
-        return None
+        url = "https://drive.google.com/uc?id=1u_k3uKbLEmCFb0u4-M0nXpF7p2unY0zx"
+        with st.spinner("📥 creditcard.csv not found locally — downloading from Google Drive…"):
+            gdown.download(url, DATASET_PATH, quiet=False)
     df = pd.read_csv(DATASET_PATH)
     df["Hour"] = (df["Time"] // 3600) % 24
     df["Amount_log"] = np.log1p(df["Amount"])
