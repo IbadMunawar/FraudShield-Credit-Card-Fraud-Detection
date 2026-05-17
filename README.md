@@ -2,6 +2,14 @@
 
 > An end-to-end Machine Learning web application for real-time credit card fraud detection, built with Streamlit, scikit-learn, XGBoost, SHAP, and Plotly.
 
+## 🌐 Live Demo
+
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://fraudshield-credit-card-fraud-detection-m89a2ir96dqqjhp548nvwc.streamlit.app/)
+
+👉 **[https://fraudshield-credit-card-fraud-detection-m89a2ir96dqqjhp548nvwc.streamlit.app/](https://fraudshield-credit-card-fraud-detection-m89a2ir96dqqjhp548nvwc.streamlit.app/)**
+
+---
+
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=flat-square&logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.x-FF4B4B?style=flat-square&logo=streamlit)
 ![XGBoost](https://img.shields.io/badge/XGBoost-enabled-orange?style=flat-square)
